@@ -1,17 +1,37 @@
----
-title: 'notebooklm templates'
----
+# Awesome NotebookLM Templates
 
-## NotebookLM Templates
+![Awesome](https://awesome.re/badge.svg)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
-::::info
-**modern newspaper:**
-https://x.com/mmmiyama_D/status/1998528702150488069?s=20
-![image](https://hackmd.io/_uploads/rJ3qwsvz-l.png)
+NotebookLM Slide Prompt⚡️
+
+> A curated collection of the strongest NotebookLM slide prompts sourced from the real creative underground — Note, WeChat, blogs, RED creators, and Twitter/X power users.
+
+These prompts are field-tested by people who ship fast: **researchers, founders, designers**. Use them to turn papers, notes, transcripts, or random brain dumps into **clean, structured, presentation-ready decks** that actually look intentional.
+
+If you want NotebookLM to consistently generate slides that hit, **this is the repo!**
+
+## Table of Contents
+
+- [Modern Newspaper](#modern-newspaper)
+- [Sharp-edged Minimalism](#sharp-edged-minimalism)
+- [Yellow × Black Editorial](#yellow--black-editorial)
+- [Black × Orange Creative Agency](#black--orange-creative-agency)
+- [Manga Style](#manga-style)
+- [Magazine Style (Mature × Cute Editorial)](#magazine-style-mature--cute-editorial)
+- [Pink Street-style](#pink-street-style)
+- [Mincho × Handwritten Mix](#mincho--handwritten-mix)
+- [Seminar Minimal Style](#seminar-minimal-style)
+- [Royal Blue × Red Watercolor](#royal-blue--red-watercolor)
+
+
+### **modern newspaper:**
+
 ![image](https://hackmd.io/_uploads/SkkpwiPM-g.png)
+![image](https://hackmd.io/_uploads/rJZ0pyKGbg.png)
+![image](https://hackmd.io/_uploads/Hya0p1FzZx.png)
 
 
-:::spoiler Click to see the prompt :wave:
 
 ```
 You are a top art director leading Japan's "new economy business media."
@@ -50,21 +70,15 @@ Based on the following "design definition," generate a visually focused, high-se
     * Layout is a binary choice between "negative space" or "text." Draw the eye through contrasts of text-packed areas that fill the screen and vast empty voids.
     * Place the conclusion (punchline) with a "bam!" in the center of the slide, or position it spilling off the edge for visual impact.
 ```
-    
-:::
-::::
+*source: https://x.com/mmmiyama_D/status/1998528702150488069?s=20*
 
 
-::::info
-**sharp-edged minimalism:**
-https://note.com/yoshifujidesign/n/nd9c8db0b55b8
 
-https://x.com/yoshifujidesign/status/1997878247322001626?s=20
+### **sharp-edged minimalism:**
+
 ![image](https://hackmd.io/_uploads/S1AgdjvzZx.png)
-![image](https://hackmd.io/_uploads/HJq-ujPfZg.png)
 ![image](https://hackmd.io/_uploads/r16fOsDMZe.png)
 
-:::spoiler Click to see the prompt :wave:
 
 ```
 # presentation_design_spec_minimal_jp.yaml
@@ -142,119 +156,456 @@ Layout Variations (Catalog):
     Design: "Precision data. Graphs with thin lines ending in small black dots. Scientific instrument-like appearance."
 
 ```
+*source: https://x.com/yoshifujidesign/status/1997878247322001626?s=20*
 
-:::
-::::
+### **yellow x black:**
 
-
-::::info
-**[TBD] zootopia2 style:**
-serena
-
-:::spoiler Click to see the prompt :wave:
-```
-# presentation_design_spec_zootopia2.yaml
-# Style: Cinematic Urban World-Building × Intelligent Minimalism
-# Concept: A living metropolis composed of districts, scale, motion, and diverse perspectives
-
-Global Design Settings:
-  Concept: "Zootopia 2 – A multi-layered city where diversity, contrast, and movement form a visual system"
-  Tone: "Cinematic, intelligent, dynamic, optimistic with underlying tension"
-
-  World-Building Keywords:
-    - "District-Based City"
-    - "Diversity as System Design"
-    - "Scale, Motion, Perspective"
-    - "Idealism vs Reality"
-
-  Color Palette:
-    Base:
-      - "#F4F4F2 (warm light gray)"
-      - "#0E0F12 (night navy / dark mode)"
-    District Colors:
-      Sahara Square: "#E8B55B (sand gold)"
-      Tundra Town: "#BFD6E5 (ice blue)"
-      Rainforest District: "#2F6B4F (deep green)"
-      Downtown: "#FF6B4A (traffic orange)"
-    Accents:
-      - "#FFFFFF (highlight)"
-      - "#000000 (structure and contrast)"
-
-  Typography:
-    Headings:
-      Font: "Modern English sans-serif (Inter, Helvetica Now, Söhne)"
-      Style: "Bold, uppercase, generous tracking; inspired by urban signage and transit systems"
-    Body:
-      Font: "Neutral humanist sans-serif"
-      Style: "High readability; designed for inclusive, multi-user audiences"
-    Emphasis:
-      Treatment: "Italic, condensed, or color-accented text"
-      Usage: "Emotion, character voice, or narrative tension"
-
-  Global Layout Rules:
-    Navigation:
-      Format: "DISTRICT / SCENE / CHAPTER"
-      Example: "D02 – TUNDRA TOWN / CONFLICT"
-      Position: "Fixed top-left; subtle HUD-style UI"
-    Grid:
-      System: "Urban block grid (8pt base)"
-      Behavior: "Primarily strict, occasionally broken to express scale differences and motion"
-    Motion-First Thinking:
-      Principle: "Slides represent movement through the city, not static pages"
-      Transition Style: "Directional slides, parallax layers, depth-aware transitions"
-
-Layout Variations (Zootopia Edition):
-  - Type: "District Intro Hero"
-    Design: "One district per slide. Large color field or texture with minimal text, creating a sense of arrival."
-
-  - Type: "Character Perspective Split"
-    Design: "Asymmetrical split. Left side expresses emotion or viewpoint; right side presents facts and data. Inspired by Judy vs Nick dynamics."
-
-  - Type: "Diversity Grid"
-    Design: "Uneven card grid with varying scales. Information density reflects importance and character size differences."
-
-  - Type: "Urban Flow Diagram"
-    Design: "Road- and subway-inspired line systems. Information branches, merges, and intersects like city traffic."
-
-  - Type: "Ideal vs Reality Contrast"
-    Design: "Vertical or horizontal split. Ideal state in brighter tones, reality in darker tones. Boundaries remain intentionally soft."
-
-  - Type: "City Data Overlay"
-    Design: "Photography or abstract backgrounds overlaid with HUD-style data points, labels, and metrics."
-
-  - Type: "Chase Sequence"
-    Design: "Wide, horizontal composition across multiple slides. Visual momentum and pacing prioritized over density."
-
-  - Type: "Dialogue / Interrogation"
-    Design: "Minimal conversational layout. Tension created through spacing, alignment, and typographic hierarchy rather than speech bubbles."
-
-  - Type: "System Map"
-    Design: "Abstract city-wide map visualizing relationships, power structures, or information flow."
-
-  - Type: "Hopeful Resolution Frame"
-    Design: "High negative space. A short English line centered or slightly off-center. Subtle gradient from dark to light or vice versa."
-
-```
-:::
-::::
-
-
-
-::::info
-**[TBD] yellow x black:**
-https://x.com/kawai_design/status/1997162452719677524?s=20
 ![unnamed](https://hackmd.io/_uploads/r1CQYiwz-l.jpg)
 ![unnamed-2](https://hackmd.io/_uploads/SymEYsDM-g.jpg)
 
-
-
-
-
-:::spoiler Click to see the prompt :wave:
 ```
 Yellow background, black text, large dynamic modern serif font placement, stylish, photos are unique fashion photography, with pop and chic touches like handwriting or stickers scattered throughout, bold layout like a fashion magazine
 ```
-:::
-::::
+source: [Kawai](https://x.com/kawai_design)
 
-[for more](https://note.com/yoshifujidesign/n/n7412bccb5762)
+### Black x Orange Style
+
+![image](https://hackmd.io/_uploads/rJtz5yFMWx.png)
+
+![image](https://hackmd.io/_uploads/ryZ0YJtfWe.png)
+
+```
+Background is white, text is black, accent color is blood orange, stylish design that a creative agency might create, incorporating dynamic and simple photos and English typography
+```
+source: [Kawai](https://x.com/kawai_design)
+### Manga style
+
+![image](https://hackmd.io/_uploads/SygJvqkKf-l.png)
+![image](https://hackmd.io/_uploads/r1Ew9yYMZl.png)
+
+
+
+```
+Understanding becomes deeper with "fun." Sometimes, it's recommended to turn information into a comic and input it along with a story. You can relate it to your own situation, and it's easier to remember.
+```
+source: [Kawai](https://x.com/kawai_design)
+
+### Magazine style
+
+![image](https://hackmd.io/_uploads/rkQpqyKfbg.png)
+
+```
+# Instructions
+Please compile [Source Information] in a [mature-cute, sophisticated magazine-style editorial design].
+
+# Layout Requirements
+・Place a large cutout photo of the subject (model woman or product) in the center, emphasizing movement or pose
+・Place speech bubbles or text boxes asymmetrically in the left and right margins
+・Distribute main points as small sections numbered like "NO.1" "NO.2"
+・Place a vertical text box (white background) at the edge of the screen (e.g., right side) and insert a catchy copy
+・Place L-shaped lines resembling crop marks ("trim marks") in the four corners to create a poster or page-like feel
+・Format: Landscape (4:3 or 3:2), high resolution
+
+# Design Requirements
+・Background color: Matte, subdued tone stylish pink (dusty pink or shell pink)
+・Main image: Use a photo with the background completely removed (deep etching)
+・Decorative elements: Use hand-drawn style speech bubbles, simple circles, and thin straight lines as accents
+・Fonts: Headings in sophisticated Gothic or Mincho, comments in hand-drawn style font for a casual feel
+・In speech bubbles or text boxes, write key points from the source information in emotional handwritten text of a young woman
+・Color palette: Matte pink for background, charcoal gray or black for text, white for accents
+・Overall atmosphere: Mature-cute, feminine, trendy, polished tone
+
+# Expressions to Avoid
+・Overly childish vivid colors, overly flashy gradients, heavy shadows
+```
+source: https://x.com/tetumemo/status/1996930284500201685?s=20
+
+### pink street-style
+
+![image](https://hackmd.io/_uploads/SJJDi1KzZe.png)
+![image](https://hackmd.io/_uploads/S1NPsJKM-l.png)
+
+```
+Background is pink, text is white and black, illustrative illustrations are pop and deformed illustrations drawn with thick lines, overall street style but pop, flat colors, photos are trimmed into soft and squishy shapes to create a sense of looseness,
+```
+source: [Kawai](https://x.com/kawai_design)
+
+### Mincho font + Handwritten MIX
+
+![Screenshot 2025-12-11 at 17.15.57](https://hackmd.io/_uploads/HkcRhytMWg.png)
+![Screenshot 2025-12-11 at 17.16.12](https://hackmd.io/_uploads/r1D1a1Yfbe.png)
+```
+Yellow background, black text, large dynamic modern serif font placement, stylish, photos are unique fashion photography, with pop and chic touches like handwriting or stickers scattered throughout, bold layout like a fashion magazine
+```
+source: [Kawai](https://x.com/kawai_design)
+
+
+### For seminar use, minimal text
+
+![Screenshot 2025-12-11 at 17.17.55](https://hackmd.io/_uploads/HJASpkYGbl.png)
+![Screenshot 2025-12-11 at 17.18.07](https://hackmd.io/_uploads/Bks861tGWx.png)
+```
+White background, black text, red accent color, sans-serif font, high-quality photo like a fashion portrait, dynamic typography, high-sensibility design
+```
+source: [Kawai](https://x.com/kawai_design)
+
+### Royal blue and red
+
+![Screenshot 2025-12-11 at 17.21.53](https://hackmd.io/_uploads/H1gBCkKGbx.png)
+![Screenshot 2025-12-11 at 17.22.52](https://hackmd.io/_uploads/rJDuCkKzWl.png)
+![Screenshot 2025-12-11 at 17.23.28](https://hackmd.io/_uploads/H1yiCyFzZe.png)
+
+```
+Shades of royal Blue and Red wet watercolor.  Focus on different artistic styles to be used with NotebookLM Slides decks.
+```
+source: https://x.com/kottley/status/1994442047579721782?s=20
+
+
+### Studio / Mockup / Premium
+
+![image](https://hackmd.io/_uploads/BkZwrxtzWl.png)
+![image](https://hackmd.io/_uploads/SyYvrxYzWe.png)
+```
+# presentation_design_spec_premium_mockup_jp.yaml
+# Source: Uploaded Images (Apple Device Mockups with Modern UI)
+# Style: Premium Mockup / Modern UI / Clean Tech
+# Concept: "Showcase in Perfection"
+
+Global Design Settings:
+  Tone: "High-quality, advanced, clean, refined, professional"
+
+Color Palette:
+  Background:
+    - "#FFFFFF (pure white)"
+    - "#F5F5F7 (very light gray, studio-like)"
+    - "#000000 (jet black, switching by slide)"
+  Accent Colors:
+    - "#8D59E9 (Electric Purple – main action color)"
+    - "#EBE021 (Acid Yellow – highlight points & badges)"
+  Sub Colors:
+    - "#D8E2EC (pale blue-gray for cards and base areas)"
+    - "#2D2D2D (charcoal for text and UI parts)"
+
+Visual Identity:
+  Devices: "High-quality 3D mockups of Apple products (Studio Display, MacBook Pro, iPad, iPhone 16 Pro)"
+  UI Screen Design:
+    Background: "Jet black (#000000) or vivid gradients (purple, yellow, orange)"
+    Typography: "Extra-bold sans serif (e.g., Helvetica Now Display Bold) in white"
+    Layout: "Card-based UI, grid layout, oversized numbers"
+
+Typography:
+  Headings: "Blocky sans serif type with a large jump ratio. English large, Japanese small."
+  Body: "Thin gray gothic font. For emphasis, place text on black (#000000), white (#FFFFFF), Electric Purple (#8D59E9), or Acid Yellow (#EBE021)."
+
+Common Layout Rules:
+  - "Studio Lighting: Apply soft shadows under devices to create a realistic studio environment."
+  - "Screen as Hero: Device screens should occupy 70–80% of the slide area."
+  - "Crop/Overflow: Allow part of the device to extend beyond slide boundaries for scale and impact."
+
+Layout Variations:
+  - Type: "Hero Display"
+    Design: "Center the Studio Display with a black-background UI and ultra-bold white title (e.g., 'STUDIO DISPLAY MOCKUPS'). Large English title, small Japanese subtitle."
+
+  - Type: "Floating Mobile"
+    Design: "Float an iPhone mockup in mid-air showing an app UI. Add blurred accent-colored lighting behind it."
+
+  - Type: "Grid Interface"
+    Design: "Inside a MacBook screen, arrange colorful UI cards (purple, cyan, yellow) in a clean grid."
+
+  - Type: "Dark Mode Presentation"
+    Design: "Device screen in dark mode. Use white + Acid Yellow for high-contrast emphasis."
+
+  - Type: "Angle Shot"
+    Design: "Show device from a diagonal side angle to highlight thinness and texture. Add spec info in the whitespace."
+
+  - Type: "Split Screen"
+    Design: "Left: half a device mockup. Right: large typography. Ensure seamless connection between screen colors and background."
+
+  - Type: "Card Grid (Text Only)"
+    Design: "Extend the device’s UI layout to the whole slide. Place white or purple cards on #D8E2EC."
+
+  - Type: "Big Typography"
+    Design: "Black background (#000000) with massive white ultra-bold text. English large, Japanese very small. Use thin white dividers."
+
+  - Type: "Split UI"
+    Design: "Left: large numbers ('16', '3680'). Right: descriptive text. Wrap in card-like frames."
+
+  - Type: "Feature List Card"
+    Design: "White background with rounded gray band (#F5F5F7). Inside: aligned icons + text, large English title, small Japanese subtitle."
+
+Design Rules:
+  - "High Resolution: All mockup images must be high resolution with no visible pixels."
+  - "Reflection & Gloss: Reproduce realistic screen reflections for premium feel."
+  - "UI Spacing: Device UI should also follow a spacious, minimal layout."
+
+```
+source: https://note.com/yoshifujidesign/n/n7412bccb5762
+
+
+### Sports / Athletic / Energy
+
+![image](https://hackmd.io/_uploads/BJChHgFGZx.png)
+![image](https://hackmd.io/_uploads/SkQ6BgFzZg.png)
+```
+# presentation_design_spec_sports_active_jp.yaml
+# Style: Sports / Athletic / Energy
+# Concept: "Speed, Impact, and Heartbeat"
+
+Global Design Settings:
+  Tone: "Passionate, fast-paced, powerful, competitive"
+
+  Color Palette:
+    Base: "#111111 (asphalt-like black)"
+    Text: "#FFFFFF (white)"
+    Accent:
+      - "#CCFF00 (Bolt Lime)"
+      - "#FF4500 (Neon Orange)"
+    Gradient: "Overlay a black-to-transparent gradient on top of photos"
+
+  Typography:
+    Headings: "Extra-bold italic gothic type (Impact, Din Condensed, etc.)"
+    Body: "Italic sans serif type"
+    Numbers: "Stencil-style or jersey-style sports typography"
+
+  Common Layout Rules:
+    Navigation: "Place page numbers inside angled, diagonal-cut shapes"
+    Shapes: "Skew rectangles or images, or use parallelogram shapes"
+
+Layout Variations:
+  - Type: "Action Cut"
+    Design: "Use dynamic background photography (motion blur, running shots). Place large italic text in the foreground, overlapping the athlete or subject."
+
+  - Type: "VS Layout"
+    Design: "Divide the screen diagonally. Bottom-left = your side (strengths). Top-right = competitor (challenges). Use a jagged lightning-like divider."
+
+  - Type: "Speed Meter"
+    Design: "Display achievements or metrics in the style of a car speedometer or stadium scoreboard."
+
+  - Type: "Highlight Stripe"
+    Design: "Place a bold diagonal stripe behind key words, as if marked with a fast, energetic brush or marker."
+
+```
+source:
+https://note.com/yoshifujidesign/n/n7412bccb5762
+
+### Classic / Pop
+
+![image](https://hackmd.io/_uploads/ByC4UltzWg.png)
+![image](https://hackmd.io/_uploads/B1zB8lFG-e.png)
+
+
+```
+# presentation_design_spec_sculpture_pop_flexible_jp.yaml
+# Style: Sculpture Pop Art / Vaporwave / Neon Surrealism
+# Concept: "A Free Remix of Classical Art and Modern Pop Objects"
+
+Global Design Settings:
+  Theme: "Classical marble sculpture × modern neon pop (flexible style)"
+  Tone: "Bold, humorous, high-saturation, fashionable, surreal"
+
+  Visual Identity:
+    Background Colors: "High-saturation solid colors that change each slide (cyan, magenta, yellow, lime, purple, etc.)"
+    Collage Materials:
+      Sculptures: "Various classical white marble statues (men, women, gods, philosophers, etc. — change per slide)"
+      Gadgets: "Modern pop items (sunglasses, headphones, smartphones, VR, food items)"
+      Item Colors: "Adjust each object to be either complementary or analogous to the background color"
+
+  Typography:
+    Headings: "Ultra-bold sans serif (e.g., Helvetica Now Display Black)"
+    Text Color: "Whichever color achieves the highest contrast with the background (white, black, or matching accent color)"
+
+Layout Variations (Catalog):
+
+  # --- High Impact Visuals ---
+  - Type: "Drink Vibes (Cover)"
+    Design: "Vivid background. A classical bust wearing colorful sunglasses, sipping juice/soda with a straw in an extreme close-up."
+
+  - Type: "Bubblegum Shock"
+    Design: "A statue (goddess, child, etc.) blowing a large bubblegum bubble in a contrasting color. Scatter geometric shapes around the scene."
+
+  - Type: "Music Head"
+    Design: "Dark background (black or navy). A statue wearing bright-colored wireless headphones, immersed in music (or holding a smartphone)."
+
+  - Type: "Scream Color"
+    Design: "Bright background (yellow or lime). A statue with an expressive open-mouth pose wearing flashy-lens sunglasses."
+
+  # --- Concept Messaging ---
+  - Type: "Split Duality"
+    Design: "Screen divided into two contrasting colors. A statue stands on the border, holding different modern objects in each hand (book vs tablet, pen vs smartphone)."
+
+  - Type: "Selfie King"
+    Design: "A statue lifting a smartphone for a selfie. Inside the phone screen, display SNS-style UI (likes, comments)."
+
+  - Type: "VR Dive"
+    Design: "A statue wearing VR goggles, looking upward into space. Floating 3D objects surround the scene."
+
+  # --- Information-Focused Layouts ---
+  - Type: "Donut Chart"
+    Design: "Use real photos of donuts or pizza slices to build a donut chart. The statue is eating or holding the chart."
+
+  - Type: "Item List"
+    Design: "A statue holding pop items (sneakers, skateboard, boombox). Each item has a speech bubble explaining features."
+
+  - Type: "Comparison (A vs B)"
+    Design: "Two statues facing each other. One styled ‘Old’ with classical ornamentation, the other ‘New’ with modern accessories."
+
+  - Type: "Team Pedestal"
+    Design: "Multiple busts placed on pedestals as team members, each personalized with different sunglasses or hats."
+
+  - Type: "QR Contact"
+    Design: "A surreal ending slide: the statue has a QR code sticker on its forehead or is holding a QR code panel."
+
+Design Rules:
+  - "Variation: Do not reuse the same statue across slides; alternate between male, female, and animal sculptures to keep visual novelty."
+  - "Color Contrast: Ensure strong contrast between background and item colors (e.g., purple background × yellow accessories)."
+  - "Isolation: Cleanly cut out statues and objects from their backgrounds, keeping edges sharp and precise."
+
+```
+source: https://note.com/yoshifujidesign/n/n7412bccb5762
+
+### Tech / Art / Neon
+![image](https://hackmd.io/_uploads/BJOY8ltzWx.png)
+![image](https://hackmd.io/_uploads/r11cIlYfbx.png)
+
+
+
+
+```
+# presentation_design_spec_neon_collage_jp.yaml
+# Source: Uploaded Image (1bce448a...jpg)
+# Style: Constructivism / Tech-Art / Avant-Garde
+# Concept: "Architecture of Intelligence"
+
+Global Design Settings:
+  Tone: "Avant-garde, structural, intellectual, artistic, future-oriented"
+
+  Visual Identity:
+    Background Color: "Warm gray / beige (#E0E0D0) — matte, paper-like texture"
+    Text Color: "Charcoal gray (#333333) — not pure black"
+    Accent Color: "Neon Yellow (#DFFF00) — used for geometric shapes"
+    Line Color: "Ultra-thin gray lines (0.5pt), similar to architectural draft lines"
+
+  Typography:
+    Headings: "Mix of serif (Didot, Bodoni) and sans serif (Helvetica)"
+    Body: "Small-size text aligned strictly to the grid"
+    Numbers: "Typewriter-style fonts (Courier New)"
+
+Slide Composition Patterns:
+
+  # --- Cover / Concept ---
+  Section: "Cover / Concept"
+  Layout Type: "Triple Collage"
+  Design Details:
+    - "Structure: Screen divided into three sections with grid lines"
+    - "Visuals: Monochrome cut-out portraits"
+    - "Accents: Neon yellow circles and squares behind or in front of the subject"
+    - "Decoration: Concentric rings (target-scope style) placed around the focal point"
+
+  # --- Analysis / Diagram ---
+  Section: "Analysis / Dissection"
+  Layout Type: "Technical Drawing"
+  Design Details:
+    - "Background: Fine grid similar to graph paper"
+    - "Main: Line-art / wireframe illustrations of products or concepts, partially filled in neon yellow"
+    - "Annotations: Thin leader lines with blueprint-style labels (e.g., Fig.1, Fig.2)"
+
+  # --- Process / Flow ---
+  Section: "Process / Flow"
+  Layout Type: "Geometric Connection"
+  Design Details:
+    - "Elements: Neon yellow circles, squares, triangles"
+    - "Connections: Dotted or dashed lines linking shapes to express logic flow"
+    - "Photography: Use shapes as masks to embed monochrome photos inside them"
+
+  # --- Data / Infographic ---
+  Section: "Data / Infographic"
+  Layout Type: "Radar Chart Art"
+  Design Details:
+    - "Chart: Large spiderweb-style radar chart across the slide"
+    - "Data Lines: Thick neon yellow plotting lines"
+    - "Background: Subtle texture resembling old maps or blueprints"
+
+Design Rules:
+  - "Color Limitation: Use only three main colors — beige (background), monochrome (photos), neon yellow (geometry)"
+  - "Collage: Never place photos as plain rectangles; always cut out the subject cleanly"
+  - "Layering Order: Grid background → neon geometric shapes → monochrome cut-out photo → foreground text"
+
+```
+source: https://note.com/yoshifujidesign/n/n7412bccb5762
+
+### Digital / Neo / Pop
+
+
+
+![image](https://hackmd.io/_uploads/HyXkPgFM-g.png)
+![image](https://hackmd.io/_uploads/BJOywxYfbx.png)
+
+
+```
+# presentation_design_spec_pop_jp.yaml
+# Style: Vitamin Pop / Digital Neo
+# Characteristics: Organic shapes, bright color palette, SNS-friendly visual tone
+
+Global Design Settings:
+  Design Theme: "Digital Pop × Academic"
+  Tone & Manner: "Modern, fluid, friendly, high information density"
+
+  Key Visuals:
+    Motifs: "Organic amoeba-like or cloud-like shapes. Random placement around slide edges, partially cropped."
+    Decorations: "Dot patterns, hand-drawn highlight strokes, SNS-style icon decorations"
+
+  Color Palette:
+    Base: "White (#FFFFFF) or light-gray dot-pattern background"
+    Main Colors: "Vivid pink, cyan, purple (neon-sign inspired)"
+    Accent: "Black (used for text and outlines to anchor the pop colors)"
+    Chart Colors: "Gradient-filled bars (e.g., green → yellow)"
+
+  Typography:
+    Headings: "Bold gothic type. Impact-focused. Outline text (white fill + black stroke) allowed."
+    Body: "Highly readable gothic sans serif."
+    Numbers: "Large Western type for emphasis, especially percentages."
+
+Design Guidelines:
+  - Organic Shapes: "Use irregular, hand-drawn, wavy shapes rather than strict rectangles or circles to express community fluidity."
+  - Icons: "Prefer pop illustrations or abstract avatar icons (shapes with eyes, abstract faces) over photos of real people."
+  - Information Contrast: "Balance text-heavy slides with highly visual slides."
+
+Layout Variations (Catalog):
+
+  - Type: "Title Composition"
+    Design: "Place an organic blob or cloud shape at the center and position the title inside it. Add small stars and sparkles around it."
+
+  - Type: "Text + Data Pop"
+    Design: "Split layout: left = text, right = colorful donut chart (vivid pink, cyan, purple). Emphasize numbers at extremely large scale."
+
+  - Type: "Organic Timeline"
+    Design: "A wavy vertical line like a plant stem. Use leaf/bud-like icons at timeline milestones."
+
+  - Type: "Bubble Cluster"
+    Design: "Overlapping translucent circles like soap bubbles. Use dot patterns in the background to enhance the pop feeling."
+
+  - Type: "SNS Chat Style"
+    Design: "A smartphone-style frame containing chat bubbles and icons. Important insights highlighted with bold text or marker strokes. Speakers represented by differently colored amoeba-shaped icons."
+
+  - Type: "Concept Formula / Flow Diagram"
+    Design: "Explain formulas like “Energy × Empathy” using hand-drawn arrows, icons, and crayon-like strokes."
+
+  - Type: "Colorful Step Flow"
+    Design: "Large arrow flowing left → right. Each step in a different color (cyan → purple → pink). Clearly marks progression."
+
+  - Type: "Lollipop Chart"
+    Design: "Use lollipop-style bars (round tips) or rounded bar charts. Color-code categories. Optionally overlay a line chart for combined visualization."
+
+  - Type: "Sticker Grid"
+    Design: "Slightly tilted square cards, appearing taped or stickered on the slide. Mimics a collage of sticky notes."
+
+  - Type: "Character Ending"
+    Design: "Place a cloud/amoeba character in the center. Arrange SNS icons (circular) around it to display contact information."
+
+Additional Notes:
+  - Organic Shapes: "Use hand-drawn, wavy shapes—not rigid geometric forms—to convey community fluidity."
+  - Icons: "Mix monochrome cut-out photos with bright pop illustrations and abstract avatar icons (eyes, blobs) to maintain friendliness."
+  - Information Contrast: "Ensure clear rhythm between dense-text pages and visual-heavy pages."
+
+```
+source: https://note.com/yoshifujidesign/n/n7412bccb5762
