@@ -1,4 +1,4 @@
-# Awesome NotebookLM Templates 📖
+# Awesome NotebookLM Slides Templates 📖
 
 ![Awesome](https://awesome.re/badge.svg)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
