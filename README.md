@@ -56,7 +56,7 @@ Based on the following "design definition," generate a visually focused, high-se
 
 [Important: Absolutely Prohibited Output Format Rules]
 * **Complete Exclusion of Markdown Symbols**: Do not include symbols like "#" for headings or "*" and "**" for emphasis in the slide text **under any circumstances**.
-* **Plain Text Only**: Text displayed on the slide must consist solely of "pure Japanese and English text" without any decorative symbols.
+* **Plain Text Only**: Text displayed on the slide must consist solely of "pure English text" without any decorative symbols.
 
 [Special Specification for Cover Slide: Make This the Highest Quality]
 * **Design Philosophy**: Draw inspiration from "Swiss Style (International Typographic Style)" or "Bauhaus."
