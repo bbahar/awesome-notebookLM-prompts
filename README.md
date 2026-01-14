@@ -114,7 +114,7 @@ Global Design Settings:
     Special: "Dark mode (black background) – used for slides that need emphasis"
   Typography:
     Headings: "English sans-serif (e.g., Helvetica Now, Inter). Bold and decoratively positioned."
-    Body: "(the language what users requested in the prompt) Gothic typeface. Small size with generous letter spacing and line height." But the language should be what users said in the prompt. so not nessecery in japanese.
+    Body: "(the language what users requested in the prompt) Gothic typeface. Small size with generous letter spacing and line height." But the language should be what users said in the prompt.
   Common Layout Rules:
     Navigation: "Place a small section number and title such as '01. INTRODUCTION' in the top-left (or top-right) of every slide."
     Grid: "Use a strict grid system to align elements."
@@ -134,7 +134,7 @@ Layout Variations (Catalog):
     Design: "Office interior photography occupying the full screen (or more than half). Concrete textures, desks lined with Macs. Reduce saturation for a cool tone. Add a very small caption in the bottom-left."
 
   - Type: "Photo + List Split"
-    Design: "50:50 split. Left: architectural or abstract photography. Right: data list (bold headings + light-weight descriptions). Used for company info. Bold item names, thin body text. Generous spacing; avoid overcrowding." But the language should be what users said in the prompt. so not nessecery in japanese.
+    Design: "50:50 split. Left: architectural or abstract photography. Right: data list (bold headings + light-weight descriptions). Used for company info. Bold item names, thin body text. Generous spacing; avoid overcrowding." But the language should be what users said in the prompt. 
 
   - Type: "Minimal Map"
     Design: "Silhouette-style map. Light gray background with a white map. Use ultra-thin callout lines to indicate locations."
@@ -195,7 +195,7 @@ source: [Kawai](https://x.com/kawai_design)
 ![image](https://hackmd.io/_uploads/ryZ0YJtfWe.png)
 
 ```
-Background is white, text is black, accent color is blood orange, stylish design that a creative agency might create, incorporating dynamic and simple photos and English typography. But the language should be what users said in the prompt. so not nessecery in japanese.
+Background is white, text is black, accent color is blood orange, stylish design that a creative agency might create, incorporating dynamic and simple photos and English typography. But the language should be what users said in the prompt. 
 ```
 source: [Kawai](https://x.com/kawai_design)
 ## Manga style
@@ -225,7 +225,7 @@ Please compile [Source Information] in a [mature-cute, sophisticated magazine-st
 ・Place a vertical text box (white background) at the edge of the screen (e.g., right side) and insert a catchy copy
 ・Place L-shaped lines resembling crop marks ("trim marks") in the four corners to create a poster or page-like feel
 ・Format: Landscape (4:3 or 3:2), high resolution
-・But the language should be what users said in the prompt. so not nessecery in japanese.
+・But the language should be what users said in the prompt.
 
 # Design Requirements
 ・Background color: Matte, subdued tone stylish pink (dusty pink or shell pink)
